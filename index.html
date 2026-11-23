@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AstroInfo – Sluneční soustava</title>
+<meta name="description" content="Aplikace pro Android: východy a západy Slunce, Měsíce a planet a polohy měsíců velkých planet.">
+<link rel="icon" href="img/icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<header>
+  <img src="img/icon.png" alt="">
+  <h1>AstroInfo<small>Sluneční soustava – aplikace pro Android</small></h1>
+</header>
+
+<p>Kdy dnes vychází a zapadá Slunce, Měsíc a planety a které z nich jsou právě nad obzorem?
+AstroInfo to ukáže na jediné obrazovce, a to pro místo, kde právě jste.</p>
+
+<!-- Po vydání doplnit odkaz:
+<p><a href="https://play.google.com/store/apps/details?id=cz.astroinfo.app">Stáhnout z Google Play</a></p>
+-->
+
+<div class="shots">
+  <img src="img/1.png" alt="Tabulka východů a západů">
+  <img src="img/2.png" alt="Detail Saturnu s měsíci">
+  <img src="img/3.png" alt="Detail Jupiteru s měsíci">
+</div>
+
+<h2>Co aplikace umí</h2>
+<ul>
+  <li>Tabulka východů, kulminací a západů Slunce, Měsíce, planet, Pluta a planetek Ceres a Vesta.</li>
+  <li>Zvýraznění těles nad obzorem a jejich aktuální výška.</li>
+  <li>Libovolné datum a čas, posun po dnech a režim „Teď“.</li>
+  <li>Detail tělesa: výška, azimut, souřadnice, vzdálenost, jasnost, fáze, souhvězdí.</li>
+  <li>Nákres měsíců Jupiteru, Saturnu, Uranu a Neptunu včetně prstenců Saturnu, přechodů, zákrytů a zatmění.</li>
+  <li>Poloha zadaná ručně, nebo zjištěná z telefonu.</li>
+</ul>
+
+<h2>Přesnost a data</h2>
+<p>Výpočty používají knihovnu <a href="https://github.com/cosinekitty/astronomy">Astronomy Engine</a>.
+Polohy planetek a měsíců Saturnu, Uranu a Neptunu vycházejí z dat
+<a href="https://ssd.jpl.nasa.gov/horizons/">JPL Horizons</a> (NASA) pro roky 1990–2070.</p>
+
+<h2>Původ</h2>
+<p>Aplikace je inspirovaná programem <a href="https://astroinfo.sourceforge.net/">AstroInfo pro Palm OS</a>
+a zpracovává jeho obrazovku „Our Solar System“. Je napsaná znovu od základu. Nejde o převod původního
+programu ani o jeho oficiální verzi.</p>
+
+<h2>Soukromí</h2>
+<p>Aplikace nepotřebuje internet, nezobrazuje reklamy a neshromažďuje žádná data.
+Podrobnosti v <a href="privacy.html">zásadách ochrany soukromí</a>.</p>
+
+<footer>Kontakt: <a href="mailto:{{KONTAKT}}">{{KONTAKT}}</a></footer>
+</main>
+</body>
+</html>
